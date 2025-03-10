@@ -10,23 +10,24 @@
 
 
 ## 目录结构
-knowledge_graph_project/    # 根目录
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── Dockerfile
-├── logs/
-│   └── app.log     # 日志暂存
-├── src/
-│   ├── __init__.py
-│   ├── config.py   # 环境参数设置
-│   ├── logger.py   # 日志
-│   ├── neo4j_service.py    # neo4j 服务
-│   ├── data_processing.py  # 数据处理
-│   └── app.py  # API接口实现
-└── tests/
-    └── locustfile.py  # 压测
-
+```bash
+    knowledge_graph_project/    # 根目录
+    ├── README.md
+    ├── requirements.txt
+    ├── .gitignore
+    ├── Dockerfile
+    ├── logs/
+    │   └── app.log     # 日志暂存
+    ├── src/
+    │   ├── __init__.py
+    │   ├── config.py   # 环境参数设置
+    │   ├── logger.py   # 日志
+    │   ├── neo4j_service.py    # neo4j 服务
+    │   ├── data_processing.py  # 数据处理
+    │   └── app.py  # API接口实现
+    └── tests/
+        └── locustfile.py  # 压测
+```
 
 ## 压力测试
 
