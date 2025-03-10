@@ -18,6 +18,8 @@
     ├── Dockerfile
     ├── logs/
     │   └── app.log     # 日志暂存
+    ├── data_processing/
+    │   └── test_data.json
     ├── src/
     │   ├── __init__.py
     │   ├── config.py   # 环境参数设置
